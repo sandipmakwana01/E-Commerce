@@ -12,6 +12,14 @@
     height: 40px;
     width: 100px;
   }
+  @media (max-width:640px){
+    .bg_img{
+      display: none;
+    }
+    form{
+      width: 100% !important;
+    }
+  }
   .logo {
     /* border: 1px solid; */
     width: 100%;

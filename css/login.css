@@ -35,6 +35,14 @@ main {
 
   /* border-radius: 50px; */
 }
+@media (max-width:640px){
+  .bg_img{
+    display: none;
+  }
+  form{
+    width: 100% !important;
+  }
+}
 .login_container{
     width: 80%;
     height: 80vh;

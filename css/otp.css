@@ -12,6 +12,17 @@
     height: 40px;
     width: 100px;
   }
+  @media (max-width:640px){
+    .bg_img{
+      display: none;
+    }
+    form{
+      width: 100% !important;
+    }
+  }
+  .bg_img{
+    border-right: 2px solid;
+  }
   .logo {
     /* border: 1px solid; */
     width: 100%;
@@ -37,7 +48,7 @@
   .login_container{
       width: 80%;
       height: 80vh;
-      border: 1px solid;
+      border: 2px solid;
       display: flex;
   
       border-radius: 10px;
