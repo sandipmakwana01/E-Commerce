@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pcs_container_img{
+    height: 40px;
+    width: 100px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: white;
+    border: 2px solid;
+
+    border-radius: 5px;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.send_otp_button{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.back_login{
+    width: 100%;
+    
+}
+.wrapper{
+    margin: 10px 0  ;
+}
+
+.back_login a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}

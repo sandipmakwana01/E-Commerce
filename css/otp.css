@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: none; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  main {
+    width: 100%;
+  }
+  .logo img {
+    height: 40px;
+    width: 100px;
+  }
+  .logo {
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .main_login_container {
+    width: 100%;
+    /* border: 1px solid; */
+    height: 80vh;
+  
+  
+  
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  
+    margin-top: 20px;
+  
+    /* border-radius: 50px; */
+  }
+  .login_container{
+      width: 80%;
+      height: 80vh;
+      border: 1px solid;
+      display: flex;
+  
+      border-radius: 10px;
+      overflow: hidden;
+      /* justify-content: center; */
+  }
+  
+  .bg_img {
+    background-image: url(../images/login/forgot.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80vh;
+    /* display: none; */
+  }
+  form{
+      width: 50%;
+      height: 80vh;
+  
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+  
+      overflow: auto;
+
+      position: relative;
+  }
+  .otp-input{
+    width: 50px;
+    height: 50px;
+  }
+  .otp-input-container{
+    margin: 10px 0;
+  }
+  form h1{
+    margin: 20px 0;
+  }
+  .form_wrape{
+      width: 100%;
+  
+      padding: 8px;
+      margin: 11px 0px;
+  }
+  
+  .horizontal-line {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      margin: 20px 0;
+    }
+    .horizontal-line::before,
+    .horizontal-line::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid #000;
+    }
+    .or-text {
+      padding: 0 10px;
+    }
+  
+
+    .back{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .send_otp_button{
+        background-color: #000;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+    }
